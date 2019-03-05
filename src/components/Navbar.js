@@ -22,6 +22,11 @@ https://www.iconfinder.com/Makoto_msk
               products
             </Link>
           </li>
+          <li className="nav-item ml-5">
+            <Link to="/about" className="nav-link">
+              about gourmaniacs
+            </Link>
+          </li>
         </ul>
         <Link to="/cart" className="ml-auto">
           <ButtonContainer>

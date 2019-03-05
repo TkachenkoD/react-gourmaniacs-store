@@ -9,6 +9,7 @@ import Details from "./components/Details";
 import Cart from "./components/Cart";
 import Default from "./components/Default";
 import Modal from "./components/Modal";
+import About from "./components/About";
 //modal is going to out of switch
 //need to place it outside switch component
 //no routing to it
@@ -22,6 +23,7 @@ class App extends Component {
           <Route exact path="/" component={ProductList} />
           <Route path="/details" component={Details} />
           <Route path="/cart" component={Cart} />
+          <Route path="/about" component={About} />
           <Route component={Default} />
         </Switch>
         <Modal />
